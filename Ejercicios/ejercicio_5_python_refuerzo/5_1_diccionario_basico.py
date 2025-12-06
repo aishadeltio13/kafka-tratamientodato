@@ -20,3 +20,11 @@ print("Tipo del nombre:", type(persona["nombre"]))  # Tipo del valor
 # 1. Añade una nueva clave "profesion" con el valor "Ingeniera".
 # 2. Cambia la edad a 30.
 # 3. Muestra la ciudad.
+
+persona["profesion"] = "Ingeniera"
+print("Diccionario completo:", persona)
+
+persona["edad"] = 30
+print("Diccionario completo:", persona)
+
+print(persona["ciudad"])

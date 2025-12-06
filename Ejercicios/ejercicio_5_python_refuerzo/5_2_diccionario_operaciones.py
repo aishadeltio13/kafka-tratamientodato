@@ -29,3 +29,5 @@ print("Producto sin stock:", producto)
 # 1. Añade una clave "color" con el valor "gris".
 # 2. Cambia la marca a "HP".
 # 3. Elimina la clave "precio".
+
+
