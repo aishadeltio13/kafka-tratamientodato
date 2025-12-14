@@ -22,3 +22,16 @@ for alumno in alumnos:
 # 1. Añade un nuevo alumno con nombre "Pedro" y nota 9.
 # 2. Calcula la nota media de todos los alumnos.
 # 3. Muestra solo los nombres de los alumnos.
+
+alumnos.append({"nombre": "Pedro", "nota": 9}) 
+print("Lista de alumnos:", alumnos)
+
+total = 0
+for alumno in alumnos:
+    total += alumno['nota']
+media = total / len(alumnos)
+print(media)
+
+for alumno in alumnos:
+    print(f"Alumno: {alumno['nombre']}")
+

@@ -30,4 +30,13 @@ print("Producto sin stock:", producto)
 # 2. Cambia la marca a "HP".
 # 3. Elimina la clave "precio".
 
+producto["Color"] = "Gris"
+print("Producto con color:", producto)
+
+producto["marca"] = "HP"
+print("Producto con marca actualizada:", producto)
+
+del producto["precio"]
+print("Producto sin precio:", producto)
+
 

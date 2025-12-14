@@ -21,3 +21,12 @@ print("Tipo de items():", type(alumno.items()))
 # 1. Añade una clave "nota" con el valor 8.5 y vuelve a recorrer el diccionario.
 # 2. Muestra solo las claves (usa alumno.keys()).
 # 3. Muestra solo los valores (usa alumno.values()).
+
+alumno["nota"]= 8.5
+print("Recorriendo el diccionario alumno, con la clave nota añadido:")
+for clave, valor in alumno.items():
+    print(f"{clave}: {valor}")
+
+print("Alumno [claves]:", alumno.keys())
+
+print("Alumno [valores]:", alumno.values())
